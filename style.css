@@ -116,6 +116,7 @@ html,body{
 
 .lrow .lrowtxt h5{
     opacity: .3;
+    color: red;
 }
 
 .rrow span{
