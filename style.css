@@ -116,9 +116,30 @@ html,body{
 
 .lrow .lrowtxt h5{
     opacity: .3;
-    color: red;
 }
 
 .rrow span{
     opacity: .3;
+}
+
+@media(max-width: 500px){
+    #main{
+        padding: 20px;
+    }
+    #cards{
+        height: 220px;
+    }
+    .card:nth-child(1){
+        width: 320px;
+        height: 90%;
+    }
+    #icons{
+        flex-direction: column;
+    }
+    .icon{
+        width: 100%;
+    }
+    .icon .row{
+        margin-top: 30px;
+    }
 }

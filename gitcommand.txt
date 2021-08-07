@@ -1,0 +1,5 @@
+to update any folder via git
+
+git add .
+git commit -m "any info"
+git push -u origin main
